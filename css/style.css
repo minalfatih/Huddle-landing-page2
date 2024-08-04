@@ -11,8 +11,13 @@ body {
   font-size: 18px;
 }
 header {
-  position: absolute;
+  /* position: absolute; */
   width: 100%;
+ position: fixed;
+ top: 0;
+}
+main{
+  padding-top: 9rem;
 }
 nav .navbar-brand img {
   width: 180px;
